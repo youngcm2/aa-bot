@@ -1,0 +1,32 @@
+{
+  "name": "asshole",
+  "version": "0.0.0",
+  "private": true,
+  "author": "youngcm2@gmail.com",
+  "description": "AA Super Bot",
+  "scripts": {
+    "start": "tsc && HUBOT_SLACK_TOKEN=xoxb-253549648194-GGQhop7dieogpMYyBZdFdaRO ./bin/hubot --adapter slack"
+  },
+  "dependencies": {
+    "hubot": "^2.19.0",
+    "hubot-diagnostics": "0.0.2",
+    "hubot-google-images": "^0.2.7",
+    "hubot-google-translate": "^0.2.1",
+    "hubot-help": "^0.2.2",
+    "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-maps": "0.0.3",
+    "hubot-pugme": "^0.1.1",
+    "hubot-redis-brain": "0.0.4",
+    "hubot-rules": "^0.1.2",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.4.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  }
+}

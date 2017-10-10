@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+src/.idea
+src/asshole/scripts
+src/asshole/helpers
